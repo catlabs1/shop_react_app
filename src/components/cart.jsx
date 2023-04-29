@@ -7,8 +7,7 @@ function Cart(props) {
             className="cart teal white-text lighten-2"
             onClick={handleBasketShow}
         >
-            {/* <i className="material-icons">shopping_basket</i> */}
-            <img src={cartIcon} alt="shopping_basket" />
+            <i className="material-icons">shopping_basket</i>
             {quantity ? (
                 <span className="card-quantity">{quantity}</span>
             ) : null}
