@@ -5,7 +5,7 @@ function Footer() {
                 <div className="container">
                     © {new Date().getFullYear()}
                     &nbsp;Vadim Danilov
-                    <a className="grey-text text-lighten-4 right" href="#!">
+                    <a className="grey-text text-lighten-4 right" href="https://github.com/catlabs1/shop_react_app">
                         Repository
                     </a>
                 </div>
